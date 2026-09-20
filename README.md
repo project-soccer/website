@@ -21,3 +21,5 @@ All documentation must be written in English.
 <img src="assets/brand/project-soccer-logo.svg" width="160" alt="Project Soccer football and PS monogram">
 
 Use the [SVG master](assets/brand/project-soccer-logo.svg) for scalable graphics and the [PNG export](assets/brand/project-soccer-logo.png) for raster uploads. The football interior is opaque; only the exterior is transparent. See [provenance and format notes](assets/brand/project-soccer-logo.md). The older generated avatar remains in Git history. Applying the organization avatar is a separate action.
+
+[Favicon exports](assets/brand/favicons/README.md) provide SVG, ICO, small PNGs and an Apple touch icon. Deployment copies are included in the game client.
