@@ -8,7 +8,7 @@ Present the game, development status, and community entry points. The website ma
 
 ## Boundaries
 
-Game implementation belongs in `game/client`; application services belong in `game/server`, both in `project-soccer/game`. Do not duplicate their source or business rules here. Cross-project design belongs in `project-soccer/game` at `docs/game-design-and-architecture.md` (locally `../game/docs/game-design-and-architecture.md`).
+Game implementation belongs in `game/client`; application services belong in `game/server`, both in `project-soccer/game`. Do not duplicate their source or business rules here. Cross-project decisions are in `project-soccer/game` under `docs/adr/`; current behavior belongs in `docs/specifications/`.
 
 ## Status
 
@@ -18,4 +18,6 @@ All documentation must be written in English.
 
 ## Brand assets
 
-The approved emblem with revised framing and transparency is available as a [GitHub avatar PNG](assets/brand/project-soccer-github-avatar-v1.png) with its [generation prompts and provenance](assets/brand/project-soccer-github-avatar-v1.md). The PNG is included in this repository; applying it as the GitHub organization avatar is a separate action. It does not establish the full brand identity.
+<img src="assets/brand/project-soccer-logo.svg" width="160" alt="Project Soccer football and PS monogram">
+
+Use the [SVG master](assets/brand/project-soccer-logo.svg) for scalable graphics and the [PNG export](assets/brand/project-soccer-logo.png) for raster uploads. The football interior is opaque; only the exterior is transparent. See [provenance and format notes](assets/brand/project-soccer-logo.md). The older generated avatar remains in Git history. Applying the organization avatar is a separate action.
